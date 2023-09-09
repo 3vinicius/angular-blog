@@ -19,9 +19,18 @@ export class SmallCardComponent implements OnInit {
   @Input()
   Id:string="0"
 
+  styleClick:string = '250px'
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  clickContainer(){
+    if(this.styleClick == '500px'){
+      this.styleClick = '250px'
+    } else {
+      this.styleClick = '500px'
+    }
   }
 
 }

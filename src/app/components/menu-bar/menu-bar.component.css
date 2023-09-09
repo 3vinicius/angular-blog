@@ -11,3 +11,27 @@
   font-size: 20px;
 }
 
+a{
+  color:#ffffffb1;
+  transition: color 0.3s ease-in-out;
+  position: relative;
+}
+
+a:hover{
+  color: #ffff;
+}
+
+a::after{
+  position: absolute;
+  content: '  ';
+  width: 0;
+  border: 0px solid white;
+  transform: translate(-50px, 23px);
+  transition: 0.3s ease-in-out;
+}
+
+a:hover::after{
+  border: 1px solid white;
+  width: 40px;
+}
+

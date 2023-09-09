@@ -1,9 +1,15 @@
 .container__articles{
   margin-top: 30px;
-
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 
+.articles__others{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

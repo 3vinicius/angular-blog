@@ -1,25 +1,26 @@
 .container__small-card{
-  width: 700px;
-  margin-bottom: 15px;
-}
-
-.container__small-card-content{
+  width: 589px;
+  height: 250px;
   display: flex;
   flex-direction: row;
+  background-color: #252836;
 }
 
-.small-card__photo > img {
-  width: 200px;
-  min-width: 200px;
-  margin-right: 20px;
-}
-
-.small-card__title {
+.container__details{
+  padding: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #252836;
 }
 
-.container__small-card__separator{
-  margin-top: 10px;
+
+
+.container__details > h3,p{
+  background-color: #252836;
+}
+
+.container__details > p {
+  color: grey;
+  background-color: #252836;
 }

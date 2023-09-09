@@ -1,5 +1,6 @@
 <div class="container__big-card">
-
+  <h2 [style]="{'background-color': '#252836'}">Lendo Agora</h2>
+  <div class="container__details">
   <div class="big-card__photo">
     <img
       src="{{ photoCover }}"
@@ -9,16 +10,19 @@
     >
   </div>
 
+  <div class="divContainer" [style]="{'background-color': '#252836'}">
   <div class="big-card__title">
-    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
+    <h1>Descrição</h1>
   </div>
 
   <div class="big-card__description">
-    <p>
-      <a [routerLink]="['content', Id]">
+    <p [style]="{'background-color': '#252836'}"
+
+>
           {{ cardDescription }}
-      </a>
     </p>
   </div>
+  </div>
+</div>
 
 </div>

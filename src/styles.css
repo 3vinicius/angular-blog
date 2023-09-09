@@ -5,9 +5,11 @@
   box-sizing: border-box;
   background-color: #111111;
   color:white;
-  font-family: 'Segoe UI';
+  font-family: 'Inter', sans-serif;
 }
 
 a{
   text-decoration: none;
 }
+
+

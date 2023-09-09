@@ -1,29 +1,29 @@
 # BOOKSHELF
-Esse projeto é uma estante virtual de livros 
+Este projeto é uma estante virtual de livros.
 
-A ideia é que o site seja integrado com uma API e o usuario coloque a foto do livro e uma breve descrição.
+A ideia é que o site seja integrado com uma API e o usuário coloque a foto do livro e uma breve descrição.
 
-
-Foi criado um pequno prototipo do site pelo [figma](https://www.figma.com/file/h8YZ9Q5Co0xswXWAuRg1LH/Untitled?type=design&node-id=6%3A190&mode=design&t=VbUZfkBkNBXHnwbF-1)
-
-
+Foi criado um pequeno protótipo do site pelo [Figma](https://www.figma.com/file/h8YZ9Q5Co0xswXWAuRg1LH/Untitled?type=design&node-id=6%3A190&mode=design&t=VbUZfkBkNBXHnwbF-1).
 
 ## Estrutura
 
-O site é divido em três paginas: Home, Livros e sobre
+O site é dividido em três páginas: Home, Livros e Sobre.
 
-Home é a pagina inicial, onde contém o livro que o usuario está lendo agora e os dois ultimos lidos
+Home é a página inicial, onde contém o livro que o usuário está lendo agora e os dois últimos lidos.
 
-Livros é a pagina que contem todos os livros cadastrados pelo usuario
+Livros é a página que contém todos os livros cadastrados pelo usuário.
 
-Sobre é a pagina que contem informações do usuario
+Sobre é a página que contém informações do usuário.
 
+## Ferramentas
 
-
-## Ferramenta
-
-
-![angular](https://avatars.githubusercontent.com/u/139426?s=40&v=4)
+![Angular](https://avatars.githubusercontent.com/u/139426?s=40&v=4)
 ![Figma](https://avatars.githubusercontent.com/u/56802299?s=40&v=4)
 
+## Perspectivas
 
+- Criar e integrar uma API ao projeto.
+- Adicionar data de leitura.
+- Adicionar classificação.
+- Adicionar redirecionamento para a loja da Amazon.
+- Deixar responsivo.
